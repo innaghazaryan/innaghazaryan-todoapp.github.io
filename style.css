@@ -1,0 +1,43 @@
+.task-square {
+  width: 15px;
+  height: 15px;
+  margin-right: 16px;
+}
+.task-text {
+  display: inline-block;
+  padding: 0 10px;
+  margin: auto;
+  border: none;
+  font-size: 16px;
+  height: 25px;
+  width: 235px;
+}
+.task,
+input {
+  border: 1px solid black;
+  width: 200px;
+  height: fit-content;
+  padding: 10px 100px 10px 10px;
+}
+.plus-icon {
+  position: relative;
+  right: 40px;
+  top: 3px;
+}
+.trash-icon {
+  position: absolute;
+  left: 280px;
+}
+li {
+  list-style-type: none;
+}
+#taskList {
+  padding: 0;
+}
+#taskList li {
+  margin-top: 10px;
+  word-wrap: break-word;
+}
+.checked-task {
+  text-decoration: line-through;
+}
